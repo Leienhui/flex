@@ -2,7 +2,7 @@
 ## flex布局/弹性布局
 * 目前web开发中使用最多的布局方案
 * 外面开启布局的元素叫flex container
-    ![](./images/图片1.png)
+    ![](images/图片1.png)
 
 * flex container里面的直接子元素叫做flex items
 * 设置display属性为flex或者inline-flex可以成为flex container
@@ -12,13 +12,13 @@
 
 * flex items默认是沿着主轴（main axis）方向**从main start开始到main end结束排布**，不管里面的元素是块级元素还是行内元素，都是按照flex container要求来排列
 
-    ![](./images/图片2.png)
+    ![](images/图片2.png)
 
 ## 应用在flex contianer上的CSS属性
 ### flex-flow
 * 是 flex-direction||flex-wrap的简写
 
-  ![](./images/图片4.png)
+  ![](images/图片4.png)
 
 ### flex-direction
 
@@ -32,7 +32,7 @@
 
 * column-reverse表示从下到上
 
-  ![](./images/图片5.png)
+  ![](images/图片5.png)
 
 ### flex-wrap
 * 决定了flex container是单行还是多行
@@ -41,48 +41,48 @@
 
   放不下的时候，它会按比例自动收缩
 
-  ![](./images/图片6.png)
+  ![](images/图片6.png)
 
 * wrap:多行
 
-  ![](./images/图片7.png)
+  ![](images/图片7.png)
 
 * wrap-reverse:多行
 
-  ![](./images/图片8.png)
+  ![](images/图片8.png)
 
 ### justify-content（与主轴关系）
 * **决定了flex-items在主轴上的对齐方式**
 
 * **flex-start(**默认值)：与main start 对齐
 
-  ![](./images/图片9.png)
+  ![](images/图片9.png)
 
 * **flex-end**:与main end对齐
 
-  ![](./images/图片10.png)
+  ![](images/图片10.png)
 
 * **center**:居中对齐
 
-  ![](./images/图片11.png)
+  ![](images/图片11.png)
 
 * **space-between**:
 
-  ![](./images/图片12.png)
+  ![](images/图片12.png)
 
   * flex items之间的距离相等
   * 与main start、main end两端对齐
 
 * **space-evenly：**
 
-  ​	![](./images/图片13.png)
+  ​	![](images/图片13.png)
 
   * flex items之间的距离相等
   * flex items与main start ,main end之间的距离等于flex items之间的距离
 
 *  **space-around:**
 
-  ![](./images/图片14.png)
+  ![](images/图片14.png)
 
   * flex items之间的距离相等
   * flex items与main start,main end之间的距离是flex items之间距离的一半
@@ -94,60 +94,60 @@
 
 * stretch：当flex items在交叉轴方向上的size为auto时，flex item的高度会自动拉伸至flex container的高度。
 
-  ![](./images/图片15.png)
+  ![](images/图片15.png)
 
 * flex-start:与cross start （交叉轴）对齐
 
-  ![](./images/图片16.png)
+  ![](images/图片16.png)
 
 * flex-end:与cross end 对齐
 
-  ![](./images/图片17.png)
+  ![](images/图片17.png)
 
 * center:在交叉轴的中心点对齐
 
-  ![](./images/图片18.png)
+  ![](images/图片18.png)
 
 * baseline:与第一行文本的基准线对齐
 
-  ![](./images/图片27.png)
+  ![](images/图片27.png)
 
 ### align-content（**多行**flex items与交叉轴关系）
 * 决定了**多行**flex items在交叉轴上的对齐方式，用法与justify-content类似。
 
 * stretch（默认）：当flex items在交叉轴方向上的size为auto时，flex item的高度会自动拉伸至flex container的高度。
 
-  ![](./images/图片19.png)
+  ![](images/图片19.png)
 
 * flex-start:与cross start对齐
 
-  ![](./images/图片20.png)
+  ![](images/图片20.png)
 
 * flex-end:与cross end对齐
 
-  ![](./images/图片21.png)
+  ![](images/图片21.png)
 
 * center：
 
-* ![](./images/图片22.png)
+* ![](images/图片22.png)
 
 * space-between:
 
-  ![](./images/图片23.png)
+  ![](images/图片23.png)
 
   * flex items之间的距离相等
   * 与cross start、cross end两端对齐
 
 * space-evenly:
 
-  ![](./images/图片24.png)
+  ![](images/图片24.png)
 
   * flex items之间的距离相等
   * flex items与cross start ,cross end之间的距离等于flex items之间的距离
 
 * space-around:
 
-  ![](./images/图片25.png)
+  ![](images/图片25.png)
 
   * flex items之间的距离相等
   * flex items与cross start,cross end之间的距离是flex items之间距离的一半
@@ -222,7 +222,7 @@
     * 注意：order:数字是写在flex items的样式中
 
 ### align-self
-![](./images/图片26.png)
+![](images/图片26.png)
 * auto（默认值）:遵从flex container的align-items设置
 * 对齐方式   ---->   写了**align-self的flex items会覆盖align-items的对齐方式**
 * 它的值与align-items对应的值一样
