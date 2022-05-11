@@ -2,7 +2,7 @@
 ## flex布局/弹性布局
 * 目前web开发中使用最多的布局方案
 * 外面开启布局的元素叫flex container
-    ![图片1](images/图片1.png)
+    ![](images/图片1.png)
 
 * flex container里面的直接子元素叫做flex items
 * 设置display属性为flex或者inline-flex可以成为flex container
