@@ -129,7 +129,7 @@
 
 * center：
 
-* ![](images/图片22.png)
+  ![](images/图片22.png)
 
 * space-between:
 
